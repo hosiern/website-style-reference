@@ -1,0 +1,149 @@
+/*Global Styling*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+/*Header Styling*/
+
+header {
+	margin-top: 20px;
+	color: #bb8493;
+}
+
+/*Main Content Styling*/
+
+.main {
+	margin: 20px auto;
+	width: 90%;
+}
+
+.container {
+	margin-top: 30px;
+}
+
+.container,
+.container-heading {
+	border: 1px solid #49243e;
+	border-style: outset;
+}
+
+.container-heading {
+	color: #704264;
+	background-color: #dbafa0;
+}
+
+.container-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*Color Section*/
+
+.color {
+	width: 50%;
+	height: 200px;
+}
+
+#color-1 {
+	background-color: #49243e;
+}
+
+#color-2 {
+	background-color: #704264;
+}
+
+#color-3 {
+	background-color: #bb8493;
+}
+
+#color-4 {
+	background-color: #dbafa0;
+}
+
+.color-hex,
+.color-use {
+	color: white;
+}
+
+.color-hex {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.color-use {
+	font-size: 1.3em;
+}
+
+/*Font Section*/
+
+.font {
+	width: 50%;
+	height: 200px;
+	padding: 40px;
+	color: #704264;
+}
+
+#font-1 {
+	font-family: "Oswald", sans-serif;
+}
+
+#font-2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+#font-3 {
+	font-family: "Afacad Flux", sans-serif;
+}
+
+#font-4 {
+	font-family: "Roboto", sans-serif;
+}
+
+#font-note {
+	font-size: 0.7em;
+}
+
+/*Elements Section*/
+
+#element-container {
+	padding: 20px;
+	text-align: justify;
+	display: block;
+}
+
+.element {
+	color: #704264;
+}
+
+#element-1 {
+	font-size: 2em;
+}
+
+#element-2 {
+	font-size: 1.5em;
+}
+
+#element-3 {
+	font-size: 1.17em;
+}
+
+#element-4 {
+	font-size: 1em;
+}
+
+#element-5 {
+	font-size: 0.83em;
+}
+
+#element-6 {
+	font-size: 0.67em;
+}
+
